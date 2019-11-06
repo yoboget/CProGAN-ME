@@ -11,4 +11,4 @@ In this paper, we propose a new approach for image in-painting and image extensi
 
 The major issue resulting from keeping a strict GAN architecture lies in the fact that the conditional part is too large to be directly injected as input into the Generator. It should be encoded, creating a bottleneck limiting the quantity of information transmitted to the Generator. To tackle this issue, we introduced secondary encoders re-injecting information at each stage of the Progressive Generator. Even if we still have to assess our method on standard datasets, we show that it performs realistic image completion. Also, we can use the technique iteratively to produce larger images. 
 
-![Alt text](yoboget/CProGAN-ME/imgage3.jpg?raw=true "Iterative use of CProGAN-ME")
+![Image_iterative_CProGAN-ME](yoboget/blob/master/image3.png?raw=true "Iterative use of CProGAN-ME")
