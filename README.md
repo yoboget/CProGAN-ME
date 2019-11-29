@@ -1,7 +1,8 @@
 # CProGAN-ME
 Condional Progressive GAN with Multiple Encoders
 
-Attention: 
+Warning: 
+
 Most of the code provided here comes from the work of Tero Karras (NVIDIA), Timo Aila (NVIDIA), Samuli Laine (NVIDIA), Jaakko Lehtinen (NVIDIA and Aalto University). The original paper 'Progressive Growing of GANs for Improved Quality, Stability, and Variation' is available here: https://arxiv.org/abs/1710.10196
 Their Official TensorFlow implementation of the ICLR 2018 paper is here: https://github.com/tkarras/progressive_growing_of_gans. 
 
