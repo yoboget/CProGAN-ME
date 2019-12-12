@@ -7,10 +7,14 @@ Most of the code provided here comes from the work of Tero Karras (NVIDIA), Timo
 Their Official TensorFlow implementation of the ICLR 2018 paper is here: https://github.com/tkarras/progressive_growing_of_gans. 
 Please refer to the original paper for the implementation. 
 
-I am accoutable only for the conditional part of it. 
+I am accoutable only for the conditional part of it.
+
 Networks.py - Lines: 182-224, Modified Generator receiving the input from the encoders
+
 Networks.py - Lines: 225-265, Encoders
+
 loss.py     - Lines: 25-65, Modification of the input of the loss function to make it conditional
+
 Train.py    - Lines: 133-330, Adapted Diognostic tools
 
 ![Conditional_tiles](conditional_tiles.png?raw=true "Conditional tiles")
