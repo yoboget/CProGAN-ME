@@ -3,19 +3,10 @@ Condional Progressive GAN with Multiple Encoders
 
 Warning: 
 
-Most of the code provided here comes from the work of Tero Karras (NVIDIA), Timo Aila (NVIDIA), Samuli Laine (NVIDIA), Jaakko Lehtinen (NVIDIA and Aalto University). The original paper 'Progressive Growing of GANs for Improved Quality, Stability, and Variation' is available here: https://arxiv.org/abs/1710.10196
-Their Official TensorFlow implementation of the ICLR 2018 paper is here: https://github.com/tkarras/progressive_growing_of_gans. 
-Please refer to the original paper for the implementation. 
+Make extensive use of: https://github.com/tkarras/progressive_growing_of_gans. 
+Please, refer to it for the implementation. 
 
 I am accoutable only for the conditional part of it.
-
-Networks.py - Lines: 182-224, Modified Generator receiving the input from the encoders
-
-Networks.py - Lines: 225-265, Encoders
-
-loss.py     - Lines: 25-65, Modification of the input of the loss function to make it conditional
-
-Train.py    - Lines: 133-330, Adapted Diognostic tools
 
 ![Conditional_tiles](conditional_tiles.png?raw=true "Conditional tiles")
 
